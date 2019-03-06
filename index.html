@@ -7,105 +7,101 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous">
    <link rel="stylesheet" href="css/estilos.css">
    <title>Document</title>
 </head>
 
 <body>
-    
-   <!--navegation-->
+
+   <!-- NAVIGATION -->
    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <div class="container">
-         <a href="/"> 
-            <img src="img/dux.jpg" alt="logo dux" class="logo-dux">
+         <a href="index.html" class="navbar-brand">
+            WebsiteOne
          </a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a href="#home-section" class="nav-link">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#info-section" class="nav-link">Info</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Create</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">Share</a>
+               </li>
+            </ul>
+         </div>
       </div>
-
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-         <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-               <a href="#home-section" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                  <a href="#info-section" class="nav-link">Informacion</a>
-            </li>
-            <li class="nav-item">
-                  <a href="#crear-section" class="nav-link">Crear</a>
-            </li>
-            <li class="nav-item">
-                  <a href="#contacto-section" class="nav-link">Contacto</a>
-            </li>
-
-         </ul>
-      </div>
-
    </nav>
 
+   <!-- HOME -->
    <header id="home-section">
       <div class="dark-overlay">
          <div class="home-inner">
             <div class="container">
                <div class="row">
-                  <div class="col-lg-8">
-                     <h1 class="display-3"> Lorem ipsum dolor sit amet consectetur <b>adipisicing elit </b></adipisicing>. Nobis, aliquid.</h1>
-                     <!--item-->
+                  <div class="col-lg-8 d-none d-sm-block">
+                     <h1 class="display-4">Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipisicing.</h1>
+
+                     <!-- check -->
                      <div class="d-flex flex-row">
-                        <div class="p-4">
-                           <i class="fas fa-certificate"> </i>
+                        <div class="p-4 align-self-start">
+                           <i class="fas fa-certificate"></i>
                         </div>
-                        <div class="p-4">
-                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptatum!</p>
+                        <div class="p-4 align-self-end">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque nam eos soluta, est
+                           velit magnam modi delectus amet, eveniet.
+                        </div>
+                     </div>
+                     <!-- check -->
+                     <div class="d-flex flex-row">
+                        <div class="p-4 align-self-start">
+                           <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque nam eos soluta, est
+                           velit magnam modi delectus amet, eveniet.
+                        </div>
+                     </div>
+                     <!-- check -->
+                     <div class="d-flex flex-row">
+                        <div class="p-4 align-self-start">
+                           <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque nam eos soluta, est
+                           velit magnam modi delectus amet, eveniet.
                         </div>
                      </div>
 
-                     <div class="d-flex flex-row">
-                        <div class="p-4">
-                           <i class="fas fa-certificate"> </i>
-                        </div>
-                        <div class="p-4">
-                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptatum!</p>
-                        </div>
-                     </div>
-
-                     <div class="d-flex flex-row">
-                        <div class="p-4">
-                           <i class="fas fa-certificate"> </i>
-                        </div>
-                        <div class="p-4">
-                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptatum!</p>
-                        </div>
-                     </div>
                   </div>
+                  <!-- SECOND COLUMN -->
                   <div class="col-lg-4">
-                     <div class="card text-center bg-danger">
+                     <div class="card text-center" style="background-color: #c0392b;">
                         <div class="card-body">
-                           <h3>Lorem, ipsum.</h3>
-                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>7
-                           <form action="">
+                           <h3>Lorem ipsum.</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                           <form>
                               <div class="form-group">
-                                <label for="user-name">Usuario</label>
-                                <input type="text" name="" id="user-name" class="form-control form-control-lg" placeholder="User name" aria-describedby="helpId">
-                                
+                                 <input type="text" class="form-control form-control-lg" placeholder="Username">
                               </div>
-
                               <div class="form-group">
-                                 <label for="pass">Constraseña</label>
-                                 <input type="password" name="" id="pass" class="form-control form-control-lg" placeholder="Constraseña" aria-describedby="helpId">
-                                 
-                               </div>
-
-                               <div class="form-group">
-                                 <label for="pass-retry">Repita su contraseña</label>
-                                 <input type="password" name="" id="pass-retry" class="form-control form-control-lg" placeholder="Confirma Contraseña" aria-describedby="helpId">
-                                
-                               </div>
-
-                               <input type="submit" class="btn btn-outline-light btn-block" value="Enviar">
+                                 <input type="text" class="form-control form-control-lg" placeholder="Password">
+                              </div>
+                              <div class="form-group">
+                                 <input type="text" class="form-control form-control-lg" placeholder="Confirm Password">
+                              </div>
+                              <input type="submit" value="Send" class="btn btn-outline-light btn-block">
                            </form>
                         </div>
                      </div>
@@ -115,6 +111,10 @@
          </div>
       </div>
    </header>
+
+   
+
+
 
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"></script>
